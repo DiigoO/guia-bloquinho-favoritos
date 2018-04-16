@@ -9,6 +9,15 @@ public class Favorito {
     @Id
     private String idUser;
     private String idBloquinho;
+    private String isFavorito;
+
+    public String getIsFavorito() {
+        return isFavorito;
+    }
+
+    public void setIsFavorito(String isFavorito) {
+        this.isFavorito = isFavorito;
+    }
 
     public String getIdBloquinho() {
         return idBloquinho;
